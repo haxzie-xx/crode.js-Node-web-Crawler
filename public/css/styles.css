@@ -1,0 +1,84 @@
+
+
+.main-card {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  margin: 0 auto 100px;
+  text-align: center;
+}
+
+.heading {
+  color: #9E9E9E;
+  font-size: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.heading span{
+  color: #26c6da;
+
+}
+.caption {
+  color: #BDBDBD;
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.search-bar {
+  background-color: #ffffff;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+  max-width: 400px;
+  margin: 5px auto 100px;
+  margin-top: 50px;
+
+}
+
+.search-inside {
+  background-color: #ffffff;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  vertical-align: middle;
+
+}
+
+.search-icon{
+  width: 24px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.search-input{
+  text-align: center;
+}
+
+#namanyay-search-btn {
+background:#26c6da;
+color:white;
+padding:13px 20px;
+border-radius:3px 3px 3px 3px;
+-moz-border-radius:3px 3px 3px 3px;
+-webkit-border-radius:3px 3px 3px 3px;
+-o-border-radius:3px 3px 3px 3px;
+border:0 none;
+font-weight:bold;
+}
+
+#namanyay-search-box {
+background: #F5F5F5;
+padding-left: 10px;
+padding-right: 10px;
+ border-radius:3px 0 0 3px;
+-moz-border-radius:3px 0 0 3px;
+-webkit-border-radius:3px 0 0 3px;
+-o-border-radius:3px 0 0 3px;
+border:1px solid #E0E0E0;
+max-width:300px;
+ }

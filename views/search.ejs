@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+<link href="css/styles.css" rel="stylesheet">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <%- include('header')  %>
+
+      <div class="container-main">
+      <h2 class="heading">
+        Search among <span>50,000+</span> movie links.
+      </h2>
+      <p class="caption">Free and ready to download!</p>
+      </div>
+
+
+
+      <div class="search-bar">
+        <form id="searchthis" action="/search" style="display:inline;" method="get">
+        <input id="namanyay-search-box" name="q" size="40" type="text" placeholder="Search"/>
+        <input id="namanyay-search-btn" value="GO" type="submit"/>
+        </form>
+
+      </div>
+
+  <%- include('footer') %>
+
+          </body>
+        </html>
